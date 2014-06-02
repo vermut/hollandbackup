@@ -1,3 +1,14 @@
+XtraBackup
+==========
+
+This fork includes additional files to support Percona XtraBackup plugin for Holland Backup. This code currently relies on "holland-xtrabackup" package and was tested only on Ubuntu 14.04, although similar package also exists in CentOS EPEL so it might work there without modifications.
+
+NB! XtraBackup requires special section in MySQL config:
+```sh
+[xtrabackup]
+datadir         = /var/lib/mysql
+```
+
 Description
 ===========
 
